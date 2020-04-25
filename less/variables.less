@@ -1,5 +1,38 @@
 
 // Color assignments 
+@mobile (max-width: 500px) {
+    nav{
+        float: left;
+        margin: 0;
+        overflow:hidden;
+        text-align: center;
+      }
+      
+      nav ul{
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul li{
+        display: inline-block;
+        
+        list-style-type: none;  
+        padding-top: 10px;
+        padding-left: 100px;
+      }
+      .logo p{
+        float: left;
+        position: relative;
+        margin: 10px 15px 15px 10px;
+      }
+      .content-pick {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+
+
 @font-color: @shark;
 @button-bg: @eastern-blue;
 @main-bg:  @white;
@@ -12,3 +45,4 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+}
