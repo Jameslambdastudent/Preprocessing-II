@@ -1,0 +1,99 @@
+nav {
+
+  float: left;
+
+  margin: 0;
+
+  overflow: hidden;
+
+  text-align: center;
+
+}
+
+​
+
+nav ul {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+​
+
+nav ul li {
+
+  display: inline-block;
+
+​
+
+  list-style-type: none;
+
+  padding-top: 10px;
+
+  padding-left: 100px;
+
+}
+
+​
+
+@media @mobile {
+
+  nav {
+
+    float: left;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    text-align: center;
+
+  }
+
+​
+
+  nav ul {
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+​
+
+  nav ul li {
+
+    display: inline-block;
+
+​
+
+    list-style-type: none;
+
+    padding-top: 10px;
+
+    padding-left: 100px;
+
+  }
+
+  .logo p {
+
+    float: left;
+
+    position: relative;
+
+    margin: 10px 15px 15px 10px;
+
+  }
+
+  .content-pick {
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+}
